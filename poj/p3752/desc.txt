@@ -1,0 +1,34 @@
+字母旋转游戏
+Time Limit: 1000MS		Memory Limit: 65536K
+Total Submissions: 7715		Accepted: 2907
+
+Description
+给定两个整数M，N，生成一个M*N的矩阵，矩阵中元素取值为A至Z的26个字母中的一个，A在左上角，其余各数按顺时针方向旋转前进，依次递增放置，当超过26时又从A开始填充。例如，当M=5，N=8时，矩阵中的内容如下：
+
+   A   B   C   D   E   F   G   H
+
+   V   W   X   Y   Z   A   B   I
+
+   U   J   K   L   M   N   C   J
+
+   T   I   H   G   F   E   D   K
+
+   S   R   Q   P   O   N   M   L
+
+Input
+M为行数，N为列数，其中M，N都为大于0的整数。
+
+Output
+分行输出相应的结果
+
+Sample Input
+
+4 9
+
+Sample Output
+
+   A   B   C   D   E   F   G   H   I
+   V   W   X   Y   Z   A   B   C   J
+   U   J   I   H   G   F   E   D   K
+   T   S   R   Q   P   O   N   M   L
+
